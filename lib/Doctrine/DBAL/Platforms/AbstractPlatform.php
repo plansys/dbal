@@ -132,7 +132,7 @@ abstract class AbstractPlatform
     /**
      * @var array|null
      */
-    protected $doctrineTypeMapping = null;
+    public $doctrineTypeMapping = null;
 
     /**
      * Contains a list of all columns that should generate parseable column comments for type-detection
